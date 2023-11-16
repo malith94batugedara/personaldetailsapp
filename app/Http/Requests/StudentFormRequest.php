@@ -26,11 +26,10 @@ class StudentFormRequest extends FormRequest
         
         $rules = [
             'id'=>[
-                'required',
-                'unique:id'
+                'required'
             ],
             'firstname'=>[
-                'required',
+                'required'
             ],
             'lastname'=>[
                 'required'
